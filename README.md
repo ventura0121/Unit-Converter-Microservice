@@ -40,30 +40,32 @@ Once the request is sent, the microservice will respond with a JSON object that 
 To interact with the microservice programmatically, use ZeroMQ to send and receive JSON-encoded requests and responses.
 import zmq
 
-
 Establish ZeroMQ context and socket
 ```plaintext
 context = zmq.Context()
 socket = context.socket(zmq.REQ)
 socket.connect("tcp://localhost:5555")
+```
 
 Define the conversion request
+```plaintext
 request = {
     "category": "length",
     "value": 100,
     "from_unit": "meter",
     "to_unit": "kilometer"
 }
+```
 
 Send the request
 ```plaintext
 socket.send_json(request)
-
+```
 Receive and print the response
 ```plaintext
 response = socket.recv_json()
 print("Received response:", response)
-
+```
 
 4. If the microservice receives an invalid request (e.g., missing or unsupported units), it will return an error response. Below is an example of how you can handle errors:
 ```plaintext
@@ -71,7 +73,7 @@ if 'error' in response:
     print("Error:", response['error'])
 else:
     print("Converted Value:", response['converted_value'], response['converted_unit'])
-
+```
 ### UML Sequence Diagram
 
 ```plaintext
