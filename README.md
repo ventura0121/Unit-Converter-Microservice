@@ -64,5 +64,22 @@ print("Received response:", response)
 4. If the microservice receives an invalid request (e.g., missing or unsupported units), it will return an error response. Below is an example of how you can handle errors:
 
 ### UML Sequence Diagram
++----------------+              +-------------------------+
+|    Client      |              |  Unit Converter Service |
++----------------+              +-------------------------+
+        |                                  |
+        |     Request Conversion           |
+        |--------------------------------->|
+        |                                  |
+        |                                  | 
+        |           Process Request        |
+        |                                  |
+        |            Send Response         |
+        |<---------------------------------|
+        |                                  |
+        |        Receive Response          |
+        |                                  |
+        |        (Original, Converted)     |
+        +----------------------------------+
 
 
