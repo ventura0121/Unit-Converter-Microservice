@@ -1,0 +1,75 @@
+{
+    "length": {
+        "meters_to_feet": 3.28084,
+        "feet_to_meters": 0.3048,
+        "centimeters_to_feet": 0.0328084,
+        "feet_to_centimeters": 30.48,
+        "inches_to_centimeters": 2.54,
+        "centimeters_to_inches": 0.393701,
+        "kilometers_to_miles": 0.621371,
+        "miles_to_kilometers": 1.60934,
+        "yards_to_meters": 0.9144,
+        "meters_to_yards": 1.09361,
+        "millimeters_to_inches": 0.0393701,
+        "inches_to_millimeters": 25.4,
+        "miles_to_yards": 1760,
+        "yards_to_miles": 0.000568182,
+        "kilometers_to_yards": 1093.61,
+        "yards_to_kilometers": 0.0009144
+    },
+    "weight": {
+        "kilograms_to_pounds": 2.20462,
+        "pounds_to_kilograms": 0.453592,
+        "grams_to_ounces": 0.035274,
+        "ounces_to_grams": 28.3495,
+        "kilograms_to_ounces": 35.274,
+        "ounces_to_kilograms": 0.0283495,
+        "pounds_to_ounces": 16,
+        "ounces_to_pounds": 0.0625,
+        "grams_to_pounds": 0.00220462,
+        "pounds_to_grams": 453.592,
+        "tons_to_kilograms": 907.184,
+        "kilograms_to_tons": 0.00110231
+
+    },
+    "temperature": {
+        "celsius_to_fahrenheit": "(x * 9/5) + 32",
+        "fahrenheit_to_celsius": "(x - 32) * 5/9",
+        "kelvin_to_celsius": "x - 273.15",
+        "celsius_to_kelvin": "x + 273.15",
+        "fahrenheit_to_kelvin": "(x - 32) * 5/9 + 273.15",
+        "kelvin_to_fahrenheit": "(x - 273.15) * 9/5 + 32"
+    },
+    "time": {
+        "seconds_to_minutes": 0.0166667,
+        "minutes_to_seconds": 60,
+        "minutes_to_hours": 0.0166667,
+        "hours_to_minutes": 60,
+        "hours_to_days": 0.0416667,
+        "days_to_hours": 24,
+        "weeks_to_days": 7,
+        "days_to_weeks": 0.142857,
+        "months_to_days": 30,
+        "days_to_months": 0.0333333,
+        "years_to_days": 365,
+        "days_to_years": 0.00273973
+    },
+    "volume": {
+        "liters_to_gallons": 0.264172,
+        "gallons_to_liters": 3.78541,
+        "liters_to_cubic_meters": 0.001,
+        "cubic_meters_to_liters": 1000,
+        "milliliters_to_liters": 0.001,
+        "liters_to_milliliters": 1000,
+        "cups_to_liters": 0.236588,
+        "liters_to_cups": 4.22675,
+        "cubic_inches_to_cubic_centimeters": 16.3871,
+        "cubic_centimeters_to_cubic_inches": 0.0610237,
+        "pints_to_liters": 0.473176,
+        "liters_to_pints": 2.11338,
+        "quarts_to_liters": 0.946353,
+        "liters_to_quarts": 1.05669,
+        "cubic_feet_to_cubic_meters": 0.0283168,
+        "cubic_meters_to_cubic_feet": 35.3147
+    }
+}
